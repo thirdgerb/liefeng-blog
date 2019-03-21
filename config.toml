@@ -1,6 +1,6 @@
 baseURL = "https://thirdgerb.github.io/"
 languageCode = "zh-Hans"
-title = "烈风's Blog"
+title = "烈风 | 纳于大麓 藏之名山"
 theme = "AllinOne"
 copyright = "&copy; 2016. All rights reserved."
 
@@ -15,7 +15,7 @@ summaryLength = 200
 googleAnalytics = "UA-81035041-1"
 
 # disqus
-disqusShortname = "thirdgerb"
+disqusShortname = "Commune"
 
 
 [permalinks]
@@ -23,15 +23,15 @@ disqusShortname = "thirdgerb"
     blogs = "blogs/:year-:month/:slug/"
 
 [params]
-    brand = "烈风's Blog"
+    brand = "Thirdgerb"
     avatar = "avatar.jpg"
 
     author = "烈风"
-    description = ["一名离职写开源项目的程序猿", "吾有幽忧之疾, 而好无用之学", "方且为学，未暇治疾也"]
+    description = ["一只不服老的程序猿", "吾有幽忧之疾, 而好无用之学", "方且为学，未暇治疾也"]
 
     #welcome
-    welcome_head = "Hello, World!"
-    welcome_word = "~ 开源社区代表先进生产关系 ~"
+    welcome_head = "Hello World!"
+    welcome_word = "~ may bug NEVER be with you ~"
 
     # highlight
     highlightjs = true
