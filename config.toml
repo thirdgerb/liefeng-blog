@@ -15,7 +15,7 @@ summaryLength = 200
 googleAnalytics = "UA-81035041-1"
 
 # disqus
-disqusShortname = "Commune"
+disqusShortname = "thirdgerb"
 
 
 [permalinks]
@@ -23,8 +23,9 @@ disqusShortname = "Commune"
     blogs = "blogs/:year-:month/:slug/"
 
 [params]
-    brand = "Thirdgerb"
+    brand = "Commune"
     avatar = "avatar.jpg"
+    keywords = "博客,chatbot,commune,互联网,对话机器人"
 
     author = "烈风"
     description = ["一只不服老的程序猿", "吾有幽忧之疾, 而好无用之学", "方且为学，未暇治疾也"]
