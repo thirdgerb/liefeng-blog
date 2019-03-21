@@ -23,12 +23,12 @@ disqusShortname = "thirdgerb"
     blogs = "blogs/:year-:month/:slug/"
 
 [params]
-    brand = "Commune"
+    brand = "CC"
     avatar = "avatar.jpg"
     keywords = "博客,chatbot,commune,互联网,对话机器人"
 
     author = "烈风"
-    description = ["一只不服老的程序猿", "吾有幽忧之疾, 而好无用之学", "方且为学，未暇治疾也"]
+    description = ["一只程序猿", "吾有幽忧之疾, 而好无用之学", "方且为学，未暇治疾也"]
 
     #welcome
     welcome_head = "Hello World!"
