@@ -62,3 +62,16 @@ disqusShortname = "thirdgerb"
   tag = "tags"
 
 
+[menu]
+
+    [[menu.main]]
+        name = "Posts"
+        weight = 1
+        identifier = "posts"
+        url = "posts/"
+
+    [[menu.main]]
+        name = "About"
+        weight = 9
+        identifier = "about"
+        url = "about/"
