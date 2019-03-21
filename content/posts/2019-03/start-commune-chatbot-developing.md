@@ -2,7 +2,7 @@
 title: "正式开始 Chatbot 项目的开发"
 date: 2019-03-21T17:31:01+08:00
 draft: false
-tags: ["CommuneChatbot"]
+tags: ["commune-chatbot"]
 series: []
 categories: ["工作随笔"]
 img: ""
