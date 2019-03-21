@@ -10,18 +10,21 @@ echo "=== shart push blog source ==="
 CHANGED=$(git diff-index --name-only HEAD --)
 
 if [ -z "$CHANGED" ]; then
-    echo "no change, exit"
-    exit 1;
+    echo "no change"
+else
+    git add -A
+    git ci -m "update : $1"
+    git push origin master:master
 fi
-git add -A
-git ci -m "update : $1"
-git push origin master:master
 
 echo "=== start push blog html ==="
 
 hugo
 cd public
-git add -A
-git ci -m "update : $1"
-git push origin master:master
+CHANGED=$(git diff-index --name-only HEAD --)
+if [ -n "$CHANGED" ]; then
+    git add -A
+    git ci -m "update : $1"
+    git push origin master:master
+fi
 cd ..
