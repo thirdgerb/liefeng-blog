@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -z $1 ]; then
+if [ -z "$1" ]; then
     echo "error: need message"
     exit 1;
 fi
