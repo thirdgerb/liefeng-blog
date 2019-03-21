@@ -1,5 +1,9 @@
 #!/bin/sh
 
+if [ -z $1 ]; then
+    echo "need message"
+fi
+
 echo "=== shart push blog source ==="
 
 CHANGED=$(git diff-index --name-only HEAD --)
@@ -9,7 +13,7 @@ if [ -z "$CHANGED" ]; then
     exit;
 fi
 git add -A
-git ci -m "update"
+git ci -m "update : $1"
 git push origin master:master
 
 echo "=== start push blog html ==="
@@ -17,6 +21,6 @@ echo "=== start push blog html ==="
 hugo
 cd public
 git add -A
-git ci -m "update"
+git ci -m "update : $1"
 git push origin master:master
 cd ..
