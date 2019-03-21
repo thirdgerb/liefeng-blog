@@ -1,5 +1,5 @@
 ---
-title: "正式开始 Commune/Chatbot 项目的开发旅程"
+title: "正式开始 Chatbot 项目的开发"
 date: 2019-03-21T17:31:01+08:00
 draft: false
 tags: ["CommuneChatbot"]
@@ -20,6 +20,7 @@ summary: "今天我正式从单位离职了, 顶着经济压力和各方的质�
 
 一个项目的成败也很重要, 不过对技术热情的坚持更加重要. 希望能用脚踏实地的努力来验证自己离职做项目的决心, 也希望这段经历能把自己的技术视野提升一个台阶, 为下一阶段工作奠定基础.
 
+## 博客搭建
 
 本博客使用 [hugo](https://gohugo.io) 创建.
 形式完全参考 https://orianna-zzo.github.io , 这是在调研 hugo tags 过程中发现的博客, 感觉落落大方, 就改掉了原来的界面.

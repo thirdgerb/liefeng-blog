@@ -1,6 +1,6 @@
 baseURL = "https://thirdgerb.github.io/"
 languageCode = "zh-Hans"
-title = "烈风 | 纳于大麓 藏之名山"
+title = "烈风's Blog"
 theme = "AllinOne"
 copyright = "&copy; 2016. All rights reserved."
 
@@ -23,7 +23,7 @@ disqusShortname = "thirdgerb"
     blogs = "blogs/:year-:month/:slug/"
 
 [params]
-    brand = "CC"
+    brand = "Commune"
     avatar = "avatar.jpg"
     keywords = "博客,chatbot,commune,互联网,对话机器人"
 
@@ -31,8 +31,8 @@ disqusShortname = "thirdgerb"
     description = ["一只程序猿", "吾有幽忧之疾, 而好无用之学", "方且为学，未暇治疾也"]
 
     #welcome
-    welcome_head = "Hello World!"
-    welcome_word = "~ may bug NEVER be with you ~"
+    welcome_head = "Hello World"
+    welcome_word = "may bug NEVER be with you."
 
     # highlight
     highlightjs = true
