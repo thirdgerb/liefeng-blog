@@ -133,7 +133,7 @@ summary: "在Swoole中使用IoC容器进行依赖注入, 一直存在单例和�
 
 ## CommuneChatbot 的双容器策略
 
-本项目使用的双容器策略是一个通用的策略, 代码在 [https://github.com/thirdgerb/container](), 是由 Illuminate/Container 项目修改而来.
+本项目使用的双容器策略是一个通用的策略, 代码在 [https://github.com/thirdgerb/container](https://github.com/thirdgerb/container), 是由 Illuminate/Container 项目修改而来.
 
 暂未发布版本, clone 后可以查看实现.
 
