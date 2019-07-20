@@ -40,6 +40,8 @@ summary: "在Swoole中使用IoC容器进行依赖注入, 一直存在单例和�
 
 ## 容器的"请求隔离"问题
 
+
+
 ### 关于容器, 控制反转与依赖注入
 
 为防止部分读者不了这些概念, 简单说明一下.
@@ -394,7 +396,7 @@ QQ交流群: 907985715 .
 
 微信交流群二维码:
 
-![wqrcode](/img/wqrcode.jpeg){:height="200px" width="200px"}
+![wqrcode](/img/wqrcode.jpeg)
 
 
 
