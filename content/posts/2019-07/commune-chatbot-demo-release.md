@@ -1,5 +1,5 @@
 ---
-title: "多轮对话机器人框架 commune/chatbot demo发布"
+title: "多轮对话机器人框架 commune/chatbot 项目的demo发布"
 date: 2019-07-18T13:33:23+08:00
 draft: false
 tags: ["commune-chatbot"]
@@ -156,4 +156,4 @@ commune/chatbot 项目还在初步开发阶段. 我个人希望它能成为一�
 
 因此, 当我认为积累的设想足够能实现时, 就辞掉工作, 独立开发了这个框架.  由于攻克核心技术难度较大, 也遇上一些家务事, 历时三个多月才初步开发完成. 比预期多了一半的时间.
 
-如对此项目有了解的兴趣, 请关注微信公众号 CommuneChatbot, 或者与我联系(thirdgerb@gmail.com)
+如对此项目有了解的兴趣, 请关注公众号, 或者与我联系(thirdgerb@gmail.com).  交流QQ群: 907985715
