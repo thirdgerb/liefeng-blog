@@ -18,7 +18,8 @@ summary: "在Swoole中使用IoC容器进行依赖注入, 一直存在单例和�
 
 在这些引擎上使用传统只考虑单请求的容器技术, 就容易发生单例相互污染, 内存泄露等问题 (姑且称之为"IoC容器的请求隔离问题" ). 于是出现了各种策略以解决之.
 
-多轮对话机器人框架 [CommuneChatbot](https://github.com/thirdgerb/chatbot-studio) 使用 swoole 做通信引擎, 同时非常广泛地使用了容器和依赖注入. 在本项目中使用了 "双容器策略" 来解决 "请求隔离问题", 解决方案的代码在 [https://github.com/thirdgerb/container]()
+多轮对话机器人框架 [CommuneChatbot](https://github.com/thirdgerb/chatbot-studio) 使用 swoole 做通信引擎, 同时非常广泛地使用了容器和依赖注入. 在本项目中使用了 "双容器策略" 来解决 "请求隔离问题" .
+
 
 所谓"双容器策略", 总结如下:
 
@@ -34,7 +35,12 @@ summary: "在Swoole中使用IoC容器进行依赖注入, 一直存在单例和�
     -   请求结束时进行必要清理, 防止内存泄露
 
 
-## 关于容器, 控制反转与依赖注入
+解决方案的代码在 [https://github.com/thirdgerb/container](https://github.com/thirdgerb/container) 创建了一个 composer 包 [commune/container](https://packagist.org/packages/commune/container)
+
+
+## 容器的"请求隔离"问题
+
+### 关于容器, 控制反转与依赖注入
 
 为防止部分读者不了这些概念, 简单说明一下.
 
@@ -67,7 +73,7 @@ summary: "在Swoole中使用IoC容器进行依赖注入, 一直存在单例和�
 具有依赖注入能力的容器, 我们称之为 IoC (控制反转) 容器. 关于IoC 容器的好处不是本文重点, 先跳过去了.
 
 
-## IoC 容器的请求隔离问题
+### IoC 容器的请求隔离问题
 
 容器最典型的应用场景之一, 就是持有单例. 但在 swoole 等引擎上, 一个 worker 进程要响应多个请求, 单例的数据就容易相互污染.
 
@@ -81,8 +87,7 @@ summary: "在Swoole中使用IoC容器进行依赖注入, 一直存在单例和�
 所以容器要运行在 swoole 等引擎上, 必须做到请求与请求相隔离.
 
 
-
-## 常见的解决策略
+### 常见的解决策略
 
 由于 Laravel 等使用了IoC 容器的项目能带来极好的工程体验, 而Swoole 能带来极大的性能提升, 于是有许多试图结合两者的项目, 都面临了 "请求隔离问题".
 
@@ -107,7 +112,7 @@ summary: "在Swoole中使用IoC容器进行依赖注入, 一直存在单例和�
         -   利用不了 swoole 的优势, 比起多进程模型只少了 composer autoloader 的加载.
 
 
-## CommuneChatbot 遇到的请求隔离问题
+### CommuneChatbot 遇到的请求隔离问题
 
 多轮对话机器人框架 [CommuneChatbot](https://github.com/thirdgerb/chatbot-studio) 在启动时需要加载大量多轮对话的逻辑, 消耗时间长 (>100ms), 但实际响应对话的时间不到 10ms. 所以本项目 必须使用 swoole 这类引擎, 不可能用PHP天生的多进程, 那样就只是一个低性能的玩具了.
 
@@ -389,7 +394,7 @@ QQ交流群: 907985715 .
 
 微信交流群二维码:
 
-![wqrcode](/img/wqrcode.jpeg)
+![wqrcode](/img/wqrcode.jpeg){:height="200px" width="200px"}
 
 
 
