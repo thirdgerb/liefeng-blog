@@ -4,7 +4,7 @@ date: 2019-07-18T13:33:23+08:00
 draft: false
 tags: ["commune-chatbot"]
 series: ["commune开发笔记"]
-categories: ["工作随笔"]
+categories: ["对话机器人"]
 img: "/img/commune-chatbot-test1.png"
 toc: true
 summary: "离职在家, 一个人历经三个多月的时间, 多轮对话机器人框架 commune/chatbot 项目终于完成初步开发. 第一个 demo 终于发布到微信公众号了!"
