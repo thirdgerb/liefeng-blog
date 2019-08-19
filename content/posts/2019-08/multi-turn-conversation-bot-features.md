@@ -1,5 +1,5 @@
 ---
-title: "对话OS"发展趋势与复杂多轮对话的关键功能点
+title: "对话OS的前景与复杂多轮对话的关键功能点"
 date: 2019-08-19T12:44:20+08:00
 draft: false
 tags: ["commune-chatbot", "多轮对话"]
