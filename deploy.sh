@@ -26,5 +26,7 @@ if [ -n "$CHANGED" ]; then
     git add -A
     git ci -m "update : $1"
     git push origin master:master
+    git push zhangfei master:master
+    ssh brightred@zhangfei:/home/brightred "cp -r liefengBlog/ /var/www/html/blog"
 fi
 cd ..
