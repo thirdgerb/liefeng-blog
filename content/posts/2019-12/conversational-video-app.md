@@ -2,7 +2,7 @@
 title: "对话式视频应用展望"
 date: 2019-12-11T18:52:09+08:00
 draft: false
-tags: ["多轮对话"]
+tags: ["chatbot"]
 series: ["commune开发笔记"]
 categories: ["创意备忘"]
 img: ""

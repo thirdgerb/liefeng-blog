@@ -4,7 +4,7 @@ date: 2019-07-20T11:19:53+08:00
 draft: false
 tags: ["commune-chatbot", "swoole", "php", ]
 series: ["commune开发笔记"]
-categories: ["对话机器人"]
+categories: ["开发记录"]
 img: ""
 toc: true
 summary: "在Swoole中使用IoC容器进行依赖注入, 一直存在单例和静态变量污染的问题. 多轮对话机器人框架CommuneChatbot 使用双容器策略来解决这个问题."

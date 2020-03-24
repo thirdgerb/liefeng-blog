@@ -2,9 +2,9 @@
 title: "对话OS的前景与复杂多轮对话的关键功能点"
 date: 2019-08-19T12:44:20+08:00
 draft: false
-tags: ["commune-chatbot", "多轮对话"]
+tags: ["commune-chatbot", "chatbot"]
 series: ["commune开发笔记"]
-categories: ["对话机器人"]
+categories: ["开发记录"]
 img: ""
 toc: true
 summary: "作者认为多轮对话机器人的未来不仅在于拟人的智能客服, 更能发展成为语音操作系统, 与其它交互一起引领下一轮智能设备的交互革命. 从这个角度看, 图灵测试的标准并非必须, 反而复杂多轮对话管理是目前的短板. 与机器学习实现多轮对话的方案相比, 工程化的思路也具备许多相对优势."

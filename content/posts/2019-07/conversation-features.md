@@ -2,9 +2,9 @@
 title: "对话机器人的关键功能点(一) : N阶多轮对话的分形结构"
 date: 2019-07-22T21:08:32+08:00
 draft: false
-tags: ["commune-chatbot", "多轮对话"]
+tags: ["commune-chatbot", "chatbot"]
 series: ["commune开发笔记"]
-categories: ["对话机器人"]
+categories: ["开发记录"]
 img: ""
 toc: true
 summary: "多轮对话机器人已经广泛地应用在智能客服, 智能音箱等领域. 但目前在对话管理方面的实现还存在许多不足. 我认为要达到成熟的应用级水平, 有9个功能点是必须实现的.本文讨论的是N阶多轮对话的分形结构"

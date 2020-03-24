@@ -4,7 +4,7 @@ date: 2020-01-03T15:46:12+08:00
 draft: false
 tags: ["commune-chatbot"]
 series: ["commune开发笔记"]
-categories: ["对话机器人"]
+categories: ["开发记录"]
 img: ""
 toc: true
 summary: "开源对话机器人开发框架 CommuneChatbot <https://github.com/thirdgerb/chatbot> 发布 v0.1.0 版了。"

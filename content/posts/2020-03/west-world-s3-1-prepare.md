@@ -2,7 +2,7 @@
 title: "西部世界S3评析（一）:革命的序曲"
 date: 2020-03-17T14:17:41+08:00
 draft: false
-tags: ["影评", "西部世界"]
+tags: ["西部世界"]
 series: ["西部世界影评"]
 categories: ["影评"]
 img: ""
