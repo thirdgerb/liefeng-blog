@@ -2,7 +2,7 @@
 title: "对话OS的前景与复杂多轮对话的关键功能点"
 date: 2019-08-19T12:44:20+08:00
 draft: false
-tags: ["commune-chatbot", "chatbot"]
+tags: ["commune", "chatbot"]
 series: ["commune开发笔记"]
 categories: ["开发记录"]
 img: ""

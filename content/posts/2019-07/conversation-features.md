@@ -2,7 +2,7 @@
 title: "对话机器人的关键功能点(一) : N阶多轮对话的分形结构"
 date: 2019-07-22T21:08:32+08:00
 draft: false
-tags: ["commune-chatbot", "chatbot"]
+tags: ["commune", "chatbot"]
 series: ["commune开发笔记"]
 categories: ["开发记录"]
 img: ""

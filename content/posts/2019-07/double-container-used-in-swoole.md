@@ -2,7 +2,7 @@
 title: "在Swoole中使用双IoC容器实现无污染的依赖注入"
 date: 2019-07-20T11:19:53+08:00
 draft: false
-tags: ["commune-chatbot", "swoole", "php", ]
+tags: ["commune", "chatbot", "swoole", "php", ]
 series: ["commune开发笔记"]
 categories: ["开发记录"]
 img: ""

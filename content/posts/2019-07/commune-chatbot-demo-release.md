@@ -2,7 +2,7 @@
 title: "多轮对话机器人框架 commune/chatbot 项目的demo发布"
 date: 2019-07-18T13:33:23+08:00
 draft: false
-tags: ["commune-chatbot"]
+tags: ["commune", "chatbot"]
 series: ["commune开发笔记"]
 categories: ["开发记录"]
 img: "/img/commune-chatbot-test1.png"

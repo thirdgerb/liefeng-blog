@@ -2,7 +2,7 @@
 title: "对话机器人框架 CommuneChatbot 发布 v0.1.0版"
 date: 2020-01-03T15:46:12+08:00
 draft: false
-tags: ["commune-chatbot"]
+tags: ["commune", "chatbot"]
 series: ["commune开发笔记"]
 categories: ["开发记录"]
 img: ""
