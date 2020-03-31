@@ -4,7 +4,7 @@ date: 2020-03-23T23:44:22+08:00
 draft: false
 tags: ["西部世界"]
 series: ["西部世界影评"]
-categories: ["影评"]
+categories: ["文艺评论"]
 img: ""
 toc: true
 summary: "德妹这个角色如此巨大的转变，其合理性是建立在梅芙的故事线上的，即比起人类因无法改变而注定走向毁灭，Host 才能真正自由地通过改变而选择自己的命运。"

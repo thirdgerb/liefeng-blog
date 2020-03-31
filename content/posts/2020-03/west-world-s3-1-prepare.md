@@ -4,7 +4,7 @@ date: 2020-03-17T14:17:41+08:00
 draft: false
 tags: ["西部世界"]
 series: ["西部世界影评"]
-categories: ["影评"]
+categories: ["文艺评论"]
 img: ""
 toc: true
 summary: "我将开始这个系列文章，评析《西部世界》。"
